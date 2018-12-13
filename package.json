@@ -1,0 +1,34 @@
+{
+  "name": "socket.io-chat",
+  "version": "0.0.0",
+  "description": "A simple chat client using socket.io",
+  "main": "index.js",
+  "author": "Grant Timmerman",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "4.13.4",
+    "require-dir": "^1.2.0",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "",
+    "dev": "",
+    "prod": ""
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.4",
+    "eslint": "^5.10.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0"
+  }
+}
